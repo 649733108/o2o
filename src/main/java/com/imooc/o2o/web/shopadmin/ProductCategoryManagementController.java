@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.xml.parsers.ParserConfigurationException;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -59,6 +60,7 @@ public class ProductCategoryManagementController {
 		if (currentShop!=null){
 			for (ProductCategory productCategory : productCategoryList) {
 				productCategory.setShopId(currentShop.getShopId());
+				productCategory.setCreateTime(new Date());
 			}
 			if (productCategoryList!=null && productCategoryList.size()>0){
 				try {

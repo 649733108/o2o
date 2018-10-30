@@ -90,7 +90,13 @@ public class ShopDaoTest extends BaseTest {
 		owner.setUserId(1L);
 		shopCondition.setOwner(owner);
 //		shopCondition.setEnableStatus(1);
-		shopCondition.setShopName("华");
+//		shopCondition.setShopName("华");
+		ShopCategory shopCategory = new ShopCategory();
+		ShopCategory parent = new ShopCategory();
+		parent.setShopCategoryId(5L);
+		shopCategory.setParent(parent);
+		shopCondition.setShopCategory(shopCategory);
+
 
 		List<Shop> shopList = shopDao.queryShopList(shopCondition, 0, 5);
 		for (Shop shop : shopList) {
