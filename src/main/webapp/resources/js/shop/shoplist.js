@@ -10,6 +10,8 @@ $(function () {
                 if (data.success) {
                     handleList(data.shopList);
                     handleUser(data.user);
+                }else {
+                    $.toast(data.errMsg);
                 }
             }
         })

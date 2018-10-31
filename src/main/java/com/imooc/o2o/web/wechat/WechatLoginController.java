@@ -101,6 +101,9 @@ public class WechatLoginController {
 			}
 		}
 
+		PersonInfo personInfo = personInfoService.getPersonInfoById(auth.getPersonInfo().getUserId());
+		request.getSession().setAttribute("user",personInfo);
+
 		log.debug("weixin login success.");
 		log.debug("login role_type:" + roleType);
 		//进入前端展示页面或者商家管理页面

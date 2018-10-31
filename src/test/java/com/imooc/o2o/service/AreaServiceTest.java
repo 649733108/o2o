@@ -18,10 +18,17 @@ public class AreaServiceTest extends BaseTest {
 
 	@Autowired
 	private AreaService areaService;
+	@Autowired
+	private CacheService cacheService;
 
 	@Test
 	public void testGetAreaList(){
 		List<Area> areaList = areaService.getAreaList();
+		for (Area area :areaList){
+			System.out.println(area.getAreaId() + " : " + area.getAreaName());
+		}
+		cacheService.removeFromCache(areaService.AREALISTKEY);
+		areaList = areaService.getAreaList();
 		for (Area area :areaList){
 			System.out.println(area.getAreaId() + " : " + area.getAreaName());
 		}

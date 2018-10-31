@@ -2,298 +2,73 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="oto:war exploded" />
+      <artifact name="o2o:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aeb92f1-51d5-4c0e-a92f-8115e18fb6f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/o2o_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/o2o_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/cache/JedisPoolWriper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/cache/JedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/HeadLineDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/PersonInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/WechatAuthDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dto/WechatAuthExecution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/enums/WechatAuthStateEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/exception/AreaOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/exception/WechatAuthException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/HeadLineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/PersonInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/WechatAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/HeadLineServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/PersonInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/WechatAuthServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/DESUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/EncryptPropertyPlaceholderConfigurer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/MD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/baidu/BaiduMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/baidu/Distance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/baidu/LatLonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/baidu/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/baidu/RadiusScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/baidu/ShortNetAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/CoreServiceUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/MenuManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/MessageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/MyX509TrustManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/SignUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/WeiXinUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/WeiXinUserUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/WeixinUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/pojo/AccessToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/pojo/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/pojo/CommonButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/pojo/ComplexButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/pojo/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/pojo/UserAccessToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/pojo/ViewButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/req/BaseMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/req/ImageMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/req/LinkMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/req/LocationMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/req/TextMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/req/VoiceMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/req/WechatInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/resp/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/resp/BaseMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/resp/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/resp/MusicMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/resp/NewsMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/resp/TextMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/frontend/FrontendController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/frontend/MainPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/frontend/ShopDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/frontend/ShopListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/wechat/WechatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/wechat/WechatLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/HeadLineDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/PersonInfoDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/WechatAuthDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/weixin.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/customerbind.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/mypoint.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/myrecord.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/pointrecord.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/productdetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/shopdetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/shoplist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/frontend/index/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/frontend/productdetail/productdetail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/frontend/shopdetail/shopdetail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/frontend/shoplist/shoplist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/bg-0279.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/bg-0284.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/image/bg-677.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/common/commonutil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/customerbind.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/mypoint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/myrecord.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/pointrecord.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/productdetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/shopdetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/shoplist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/HeadLineDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/PersonInfoDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/WechatAuthDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/ShopCategoryServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/WechatAuthServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ecd77cf6-8a0e-4157-99ca-86dab81ee707.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_penggle_kaptcha_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/o2o.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/LocalAuthDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dto/LocalAuthExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/enums/LocalAuthStateEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/LocalAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/CacheServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/LocalAuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/local/LocalAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/local/LocalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/LocalAuthDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local/accountbind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/local/accountbind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/local/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/logout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/LocalAuthDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/LocalAuthServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/log/webapps/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/log/webapps/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/log/webapps/debug/debug.2018-08-20.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/log/webapps/debug/debug.2018-08-21.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/log/webapps/debug/debug.2018-08-22.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/log/webapps/debug/debug.2018-08-23.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/log/webapps/debug/debug.2018-08-24.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/log/webapps/debug/debug.2018-08-26.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalina.base_IS_UNDEFINED/log/webapps/debug/debug.2018-08-27.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oto.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/AreaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/AreaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/ShopCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/ShopCategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/AreaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/AreaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopCategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/PathUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/PathUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ProductCategoryManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ProductCategoryManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/LocalAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/LocalAuth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShopCategoryDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productmanagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productmanagement.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/ShopCategoryDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/ShopCategoryDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/ShopDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/ShopDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/52.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/o2o/service/impl/AreaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/o2o/service/impl/AreaServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/o2o/service/impl/ShopCategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/o2o/service/impl/ShopCategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/o2o/util/PathUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/o2o/util/PathUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/o2o/web/shopadmin/ProductCategoryManagementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/o2o/web/shopadmin/ProductCategoryManagementController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/o2o/web/shopadmin/ShopManagementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/o2o/web/shopadmin/ShopManagementController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/shop/productcategorymanagement.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/shop/productmanagement.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/shop/shoplist.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/css/shop/shopmanagement.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/common/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/shop/productcategorymanagement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/shop/productedit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/shop/productmanagement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/shop/shoplist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/shop/shopmanagement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/js/shop/shopoperation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ShopCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ShopCategoryDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ShopDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ShopDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/watermark.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/52.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/dao/AreaDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/dao/ProductCategoryDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/dao/ProductDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/dao/ProductImgDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/dao/ShopCategoryDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/dao/ShopDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/dto/ImageHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/dto/ProductCategoryExecution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/dto/ProductExecution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/dto/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/dto/ShopExecution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/entity/Area.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/entity/HeadLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/entity/LocalAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/entity/PersonInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/entity/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/entity/ProductCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/entity/ProductImg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/entity/Shop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/entity/ShopCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/entity/WechatAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/enums/ProductCategoryStateEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/enums/ProductStateEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/enums/ShopStateEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/exception/ProductCategoryOpeationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/exception/ProductOperationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/exception/ShopOperationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/service/AreaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/service/ProductCategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/service/ProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/service/ShopCategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/service/ShopService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/service/impl/AreaServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/service/impl/ProductCategoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/service/impl/ProductServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/service/impl/ShopCategoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/service/impl/ShopServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/util/CodeUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/util/HttpServletRequestUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/util/ImageUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/util/PageCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/util/PathUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/web/shopadmin/ProductCategoryManagementController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/web/shopadmin/ProductManagementController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/web/shopadmin/ShopAdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/web/shopadmin/ShopManagementController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/com/imooc/o2o/web/superadmin/AreaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/css/shop/productcategorymanagement.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/css/shop/productmanagement.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/css/shop/shoplist.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/css/shop/shopmanagement.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/js/common/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/js/shop/productcategorymanagement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/js/shop/productedit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/js/shop/productmanagement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/js/shop/shoplist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/js/shop/shopmanagement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/js/shop/shopoperation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/mapper/AreaDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/mapper/ProductCategoryDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/mapper/ProductDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/mapper/ProductImgDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/mapper/ShopCategoryDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/mapper/ShopDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/spring/spring-dao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/spring/spring-service.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/spring/spring-web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/watermark.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/classes/watermark.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/html/shop/productcategorymanagement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/html/shop/productedit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/html/shop/productmanagement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/html/shop/shoplist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/html/shop/shopmanagement.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/html/shop/shopoperation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/c3p0-0.9.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/commons-collections-3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/commons-fileupload-1.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/filters-2.0.235-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/jackson-core-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/jackson-databind-2.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/kaptcha-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/mybatis-3.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-aop-4.3.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-beans-4.3.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-context-4.3.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-core-4.3.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-expression-4.3.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-jdbc-4.3.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-test-4.3.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-tx-4.3.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-web-4.3.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/lib/thumbnailator-0.4.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/52.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/css/shop/productcategorymanagement.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/css/shop/productmanagement.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/css/shop/shoplist.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/css/shop/shopmanagement.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/js/common/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/js/shop/productcategorymanagement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/js/shop/productedit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/js/shop/productmanagement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/js/shop/shoplist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/js/shop/shopmanagement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/js/shop/shopoperation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/watermark.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/oto/resources/watermark.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/o2o/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/imooc/o2o/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/o2o/dao/ShopCategoryDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/imooc/o2o/dao/ShopCategoryDaoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/o2o/dao/ShopDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/imooc/o2o/dao/ShopDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/wechat/WechatLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/wechat/WechatLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shoplist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shoplist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/AreaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/AreaServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -386,6 +161,53 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1628643244">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="8" />
+          <entry key="html" value="7" />
+          <entry key="java" value="29" />
+          <entry key="js" value="9" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="8" />
+          <entry key="HTML" value="7" />
+          <entry key="JAVA" value="29" />
+          <entry key="JavaScript" value="9" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="229" />
+          <entry key="java" value="2891" />
+          <entry key="js" value="941" />
+          <entry key="txt" value="12" />
+          <entry key="xml" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="229" />
+          <entry key="JAVA" value="2891" />
+          <entry key="JavaScript" value="941" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="XML" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="oto" />
@@ -393,69 +215,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/local/LocalController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state relative-caret-position="447">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <element signature="e#748#776#0" expanded="true" />
-                <element signature="e#982#1001#0" expanded="true" />
-                <element signature="e#1040#1055#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/AreaServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/local/LocalAuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+            <state relative-caret-position="1121">
+              <caret line="129" column="4" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/AreaService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopCategoryServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/HeadLineServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            <state relative-caret-position="231">
+              <caret line="246" selection-start-line="246" selection-end-line="246" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/HeadLineService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/wechat/WechatLoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="1824">
+              <caret line="100" column="13" lean-forward="true" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/ShopCategoryServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="22" column="104" selection-start-line="22" selection-start-column="104" selection-end-line="22" selection-end-column="104" />
+            <state relative-caret-position="165">
+              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -466,6 +271,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -480,6 +286,9 @@
       <find>@param String</find>
       <find>@param</find>
     </findStrings>
+    <replaceStrings>
+      <replace>o2o</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -487,27 +296,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/wechat/message/req/WechatInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/req/WechatInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/wechat/WechatController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/baidu/Point.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/message/resp/TextMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/MenuManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/MessageUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/baidu/BaiduMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/CoreServiceUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/WeiXinUserUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/weixin.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/frontend/TestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/PersonInfoDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/WechatAuthDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/PersonInfoDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/WechatAuthDao.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/PersonInfoDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/WechatAuthDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dto/WechatAuthExecution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/enums/WechatAuthStateEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/exception/WechatAuthExceptionException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/WechatAuthService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/exception/ShopOperationException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/exception/WechatAuthException.java" />
@@ -516,8 +304,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/PersonInfoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/PersonInfoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/WeixinUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/wechat/WechatLoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/ImageUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/EncryptPropertyPlaceholderConfigurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopServiceImpl.java" />
@@ -538,6 +324,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/ShopCategoryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/HeadLineServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/HeadLineService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/CacheService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/CacheServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/AreaServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/LocalAuthDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/LocalAuth.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/LocalAuthDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/LocalAuthDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dto/LocalAuthExecution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/LocalAuthService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/enums/LocalAuthStateEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/LocalAuthServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/LocalAuthServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local/accountbind.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/local/accountbind.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/local/LocalController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/local/login.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/shop/logout.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shoplist.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/local/LocalAuthController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/wechat/WechatLoginController.java" />
       </list>
     </option>
   </component>
@@ -577,6 +386,12 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="oto Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="oto Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
           <item name="war" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
@@ -584,10 +399,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="797" />
-    <option name="y" value="22" />
-    <option name="width" value="1143" />
-    <option name="height" value="1054" />
+    <option name="x" value="20" />
+    <option name="y" value="56" />
+    <option name="width" value="1654" />
+    <option name="height" value="1334" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -620,8 +435,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -662,7 +477,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
@@ -671,7 +486,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
@@ -699,7 +523,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
@@ -709,7 +533,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="o2o" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
@@ -725,6 +548,110 @@
               <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
               <item name="o2o" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="local" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -741,15 +668,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="o2o" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
@@ -760,14 +678,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540922512538" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540942385838" />
     <property name="last_opened_file_path" value="$USER_HOME$/Pictures/o2o/upload" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -777,25 +696,25 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\64973\IdeaProjects\o2o\src\main\webapp\resources\image" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.imooc.o2o.service.impl" />
+      <recent name="com.imooc.o2o.enums" />
+      <recent name="com.imooc.o2o.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\64973\IdeaProjects\o2o\src\main\java\com\imooc\o2o" />
-      <recent name="C:\Users\64973\IdeaProjects\o2o\src\main\resources" />
-      <recent name="C:\Users\64973\IdeaProjects\o2o\src\main\resources\spring" />
-      <recent name="C:\Users\64973\IdeaProjects\o2o\src\main\java\com\imooc\o2o\util" />
-      <recent name="C:\Users\64973\IdeaProjects\o2o\src\main\resources\mapper" />
+      <recent name="C:\Users\WuXinnan\IdeaProjects\o2o\src\main\webapp\resources\js\local" />
+      <recent name="C:\Users\WuXinnan\IdeaProjects\o2o\src\main\webapp\WEB-INF\html\local" />
+      <recent name="C:\Users\WuXinnan\IdeaProjects\o2o\src\main\java\com\imooc\o2o\service\impl" />
+      <recent name="C:\Users\WuXinnan\IdeaProjects\o2o\src\main\java\com\imooc\o2o\enums" />
+      <recent name="C:\Users\WuXinnan\IdeaProjects\o2o\src\main\java\com\imooc\o2o\dto" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.imooc.o2o.service" />
       <recent name="com.imooc.o2o.exception" />
       <recent name="com.imooc.o2o.dao" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.imooc.o2o.service.impl" />
-      <recent name="com.imooc.o2o.enums" />
-      <recent name="com.imooc.o2o.dto" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\64973\IdeaProjects\o2o\src\main\webapp\resources\image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -810,53 +729,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopCategoryServiceTest.testGetShopCategoryList">
-    <configuration name="DESUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.util.DESUtils" />
-      <module name="o2o" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.o2o.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AreaServiceTest.testGetAreaList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="o2o" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.o2o.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.imooc.o2o.service" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.service.AreaServiceTest" />
-      <option name="METHOD_NAME" value="testGetAreaList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShopCategoryServiceTest.testGetShopCategoryList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="o2o" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.o2o.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.imooc.o2o.service" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.service.ShopCategoryServiceTest" />
-      <option name="METHOD_NAME" value="testGetShopCategoryList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WechatAuthDaoTest.testQueryWechatInfoByOpenId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Remote.腾讯云">
+    <configuration name="LocalAuthDaoTest.testQueryLocalByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="o2o" />
       <extension name="coverage">
         <pattern>
@@ -865,14 +739,46 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.imooc.o2o.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.dao.WechatAuthDaoTest" />
-      <option name="METHOD_NAME" value="testQueryWechatInfoByOpenId" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.dao.LocalAuthDaoTest" />
+      <option name="METHOD_NAME" value="testQueryLocalByUserId" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WechatAuthServiceTest.testRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LocalAuthDaoTest.testQueryLocalByUserNameAndPwd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.o2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.o2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.dao.LocalAuthDaoTest" />
+      <option name="METHOD_NAME" value="testQueryLocalByUserNameAndPwd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalAuthDaoTest.testUpdateLocalAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.o2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.o2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.dao.LocalAuthDaoTest" />
+      <option name="METHOD_NAME" value="testUpdateLocalAuth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalAuthServiceTest.testBindLocalAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="o2o" />
       <extension name="coverage">
         <pattern>
@@ -881,8 +787,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.imooc.o2o.service" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.service.WechatAuthServiceTest" />
-      <option name="METHOD_NAME" value="testRegister" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.service.LocalAuthServiceTest" />
+      <option name="METHOD_NAME" value="testBindLocalAuth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalAuthServiceTest.testModifyLocalAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="o2o" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.o2o.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.o2o.service" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.service.LocalAuthServiceTest" />
+      <option name="METHOD_NAME" value="testModifyLocalAuth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -906,7 +828,7 @@
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="oto:war exploded">
+        <artifact name="o2o:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -977,25 +899,26 @@
       <method v="2">
         <option name="BuildArtifacts" enabled="true">
           <artifact name="oto:war exploded" />
+          <artifact name="o2o:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="Remote.腾讯云" />
       <item itemvalue="Tomcat Server.Tomcat8" />
-      <item itemvalue="Application.DESUtils" />
-      <item itemvalue="JUnit.WechatAuthDaoTest.testQueryWechatInfoByOpenId" />
-      <item itemvalue="JUnit.WechatAuthServiceTest.testRegister" />
-      <item itemvalue="JUnit.AreaServiceTest.testGetAreaList" />
-      <item itemvalue="JUnit.ShopCategoryServiceTest.testGetShopCategoryList" />
+      <item itemvalue="JUnit.LocalAuthDaoTest.testQueryLocalByUserNameAndPwd" />
+      <item itemvalue="JUnit.LocalAuthDaoTest.testQueryLocalByUserId" />
+      <item itemvalue="JUnit.LocalAuthDaoTest.testUpdateLocalAuth" />
+      <item itemvalue="JUnit.LocalAuthServiceTest.testBindLocalAuth" />
+      <item itemvalue="JUnit.LocalAuthServiceTest.testModifyLocalAuth" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShopCategoryServiceTest.testGetShopCategoryList" />
-        <item itemvalue="JUnit.AreaServiceTest.testGetAreaList" />
-        <item itemvalue="Application.DESUtils" />
-        <item itemvalue="JUnit.WechatAuthServiceTest.testRegister" />
-        <item itemvalue="JUnit.WechatAuthDaoTest.testQueryWechatInfoByOpenId" />
+        <item itemvalue="JUnit.LocalAuthServiceTest.testModifyLocalAuth" />
+        <item itemvalue="JUnit.LocalAuthServiceTest.testBindLocalAuth" />
+        <item itemvalue="JUnit.LocalAuthDaoTest.testUpdateLocalAuth" />
+        <item itemvalue="JUnit.LocalAuthDaoTest.testQueryLocalByUserId" />
+        <item itemvalue="JUnit.LocalAuthDaoTest.testQueryLocalByUserNameAndPwd" />
       </list>
     </recent_temporary>
   </component>
@@ -1018,60 +941,60 @@
       <workItem from="1538133823092" duration="4088000" />
       <workItem from="1539492773028" duration="11123000" />
       <workItem from="1540871131963" duration="16764000" />
+      <workItem from="1540923357286" duration="18288000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WechatAuthDaoTest_testQueryWechatInfoByOpenId - 2018.09.26 at 14h 06m 26s.xml">
-      <configuration name="WechatAuthDaoTest.testQueryWechatInfoByOpenId" configurationId="JUnit" />
+    <history-entry file="LocalAuthDaoTest_testInsertLocalAuth - 2018.10.31 at 03h 45m 58s.xml">
+      <configuration name="LocalAuthDaoTest.testInsertLocalAuth" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WechatAuthServiceTest_testRegister - 2018.09.26 at 15h 13m 15s.xml">
-      <configuration name="WechatAuthServiceTest.testRegister" configurationId="JUnit" />
+    <history-entry file="LocalAuthDaoTest_testQueryLocalByUserNameAndPwd - 2018.10.31 at 03h 51m 54s.xml">
+      <configuration name="LocalAuthDaoTest.testQueryLocalByUserNameAndPwd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AreaServiceTest_testGetAreaList - 2018.10.30 at 17h 05m 08s.xml">
-      <configuration name="AreaServiceTest.testGetAreaList" configurationId="JUnit" />
+    <history-entry file="LocalAuthDaoTest_testQueryLocalByUserNameAndPwd - 2018.10.31 at 03h 55m 31s.xml">
+      <configuration name="LocalAuthDaoTest.testQueryLocalByUserNameAndPwd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AreaServiceTest_testGetAreaList - 2018.10.30 at 17h 08m 21s.xml">
-      <configuration name="AreaServiceTest.testGetAreaList" configurationId="JUnit" />
+    <history-entry file="LocalAuthDaoTest_testQueryLocalByUserNameAndPwd - 2018.10.31 at 03h 56m 29s.xml">
+      <configuration name="LocalAuthDaoTest.testQueryLocalByUserNameAndPwd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AreaServiceTest_testGetAreaList - 2018.10.30 at 17h 10m 14s.xml">
-      <configuration name="AreaServiceTest.testGetAreaList" configurationId="JUnit" />
+    <history-entry file="LocalAuthDaoTest_testQueryLocalByUserNameAndPwd - 2018.10.31 at 03h 57m 00s.xml">
+      <configuration name="LocalAuthDaoTest.testQueryLocalByUserNameAndPwd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AreaServiceTest_testGetAreaList - 2018.10.30 at 17h 10m 28s.xml">
-      <configuration name="AreaServiceTest.testGetAreaList" configurationId="JUnit" />
+    <history-entry file="LocalAuthDaoTest_testQueryLocalByUserId - 2018.10.31 at 03h 57m 22s.xml">
+      <configuration name="LocalAuthDaoTest.testQueryLocalByUserId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopCategoryServiceTest_testGetShopCategoryList - 2018.10.30 at 17h 41m 21s.xml">
-      <configuration name="ShopCategoryServiceTest.testGetShopCategoryList" configurationId="JUnit" />
+    <history-entry file="LocalAuthDaoTest_testUpdateLocalAuth - 2018.10.31 at 03h 57m 42s.xml">
+      <configuration name="LocalAuthDaoTest.testUpdateLocalAuth" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopCategoryServiceTest_testGetShopCategoryList - 2018.10.30 at 17h 41m 56s.xml">
-      <configuration name="ShopCategoryServiceTest.testGetShopCategoryList" configurationId="JUnit" />
+    <history-entry file="LocalAuthServiceTest_testBindLocalAuth - 2018.10.31 at 04h 22m 18s.xml">
+      <configuration name="LocalAuthServiceTest.testBindLocalAuth" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopCategoryServiceTest_testGetShopCategoryList - 2018.10.30 at 17h 42m 38s.xml">
-      <configuration name="ShopCategoryServiceTest.testGetShopCategoryList" configurationId="JUnit" />
+    <history-entry file="LocalAuthServiceTest_testBindLocalAuth - 2018.10.31 at 04h 23m 42s.xml">
+      <configuration name="LocalAuthServiceTest.testBindLocalAuth" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopCategoryServiceTest_testGetShopCategoryList - 2018.10.30 at 17h 42m 59s.xml">
-      <configuration name="ShopCategoryServiceTest.testGetShopCategoryList" configurationId="JUnit" />
+    <history-entry file="LocalAuthServiceTest_testModifyLocalAuth - 2018.10.31 at 04h 27m 55s.xml">
+      <configuration name="LocalAuthServiceTest.testModifyLocalAuth" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97412000" />
+    <option name="totallyTimeSpent" value="115700000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49772727" visible="true" weight="0.21983914" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49674267" visible="true" weight="0.1497006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.5022727" side_tool="true" weight="0.29155496" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.50325733" side_tool="true" weight="0.112774454" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932332" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33920705" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39207047" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24251805" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23735811" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1079,16 +1002,16 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.22320117" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.22291021" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24950495" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.17158177" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.16966067" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -1111,15 +1034,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java</url>
-          <line>103</line>
+          <line>246</line>
           <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/wechat/WechatLoginController.java</url>
-          <line>56</line>
-          <properties />
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1134,307 +1051,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/WechatAuthServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/PersonInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/WeixinUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5088">
-          <caret line="212" selection-start-line="212" selection-end-line="212" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/weixin.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/ShopService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopAdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/Shop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="1339" selection-start-line="1339" selection-end-line="1339" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar!/org/springframework/beans/factory/config/PropertyResourceConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/EncryptPropertyPlaceholderConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="129" column="42" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/DESUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/ImageUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/frontend/FrontendController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/frontend/MainPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-728">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/PathUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/frontend/ShopDetailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1630">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/frontend/ShopListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/wechat/WechatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/weixin/WeiXinUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/PersonInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PersonInfoDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/WechatAuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/WechatAuthServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="192" column="24" selection-start-line="192" selection-start-column="24" selection-end-line="192" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/WechatAuthDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="e#1200#1213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/cache/JedisPoolWriper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <element signature="e#748#776#0" expanded="true" />
-            <element signature="e#982#1001#0" expanded="true" />
-            <element signature="e#1040#1055#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/exception/AreaOperationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="178" selection-start-line="178" selection-end-line="178" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/wechat/WechatLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="94" column="60" selection-start-line="94" selection-start-column="60" selection-end-line="94" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/PersonInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1449,48 +1065,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/cache/JedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="801" lean-forward="true" selection-start-line="801" selection-end-line="801" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/AreaServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/ShopCategoryServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" column="104" selection-start-line="22" selection-start-column="104" selection-end-line="22" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/AreaServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/AreaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/ShopCategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -1498,24 +1072,374 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopCategoryServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        <state relative-caret-position="504">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/ShopCategoryServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="22" column="104" selection-start-line="22" selection-start-column="104" selection-end-line="22" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/HeadLineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/HeadLineServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
-          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/HeadLineService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopCategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="29">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/util/Pool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/CacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/CacheServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/cache/JedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/LocalAuthDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/AreaServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LocalAuthDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/LocalAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/LocalAuthDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/AreaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/dto/LocalAuthExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/AreaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/enums/LocalAuthStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/LocalAuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/CodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/frontend/customerbind.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/common/commonutil.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productedit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="173" column="40" lean-forward="true" selection-start-line="173" selection-start-column="40" selection-end-line="173" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/productedit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="117" column="20" lean-forward="true" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/common/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local/accountbind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="47" column="71" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/LocalAuthServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/LocalAuthServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/local/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/local/accountbind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="32" selection-start-line="32" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/local/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/logout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/shop/shoplist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/local/LocalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/local/LocalAuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="129" column="4" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/PersonInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="246" selection-start-line="246" selection-end-line="246" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/wechat/WechatLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="100" column="13" lean-forward="true" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1614,8 +1538,8 @@
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
     <option value="clean install -Dmaven.test.skip=true" />
-    <option value="clean" />
     <option value="clean compile war:war" />
+    <option value="clean" />
     <option value="clean install war:war" />
     <option value="clean install package" />
     <option value="clean build" />
