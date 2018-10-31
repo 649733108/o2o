@@ -245,10 +245,13 @@ public class ShopManagementController {
 		Map<String, Object> modelMap = new HashMap<>();
 
 		PersonInfo user = new PersonInfo();
-		user.setUserId(1L);
-		user.setName("test");
-		request.getSession().setAttribute("user",user);
+
 		user = (PersonInfo) request.getSession().getAttribute("user");
+		if (user==null){
+			modelMap.put("success",false);
+			modelMap.put("errMsg","请登录");
+			return modelMap;
+		}
 		try {
 			Shop shopCondition = new Shop();
 			shopCondition.setOwner(user);
