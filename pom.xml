@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>oto Maven Webapp</name>
+    <name>o2o</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -190,6 +190,11 @@
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
             <version>RELEASE</version>
         </dependency>
 

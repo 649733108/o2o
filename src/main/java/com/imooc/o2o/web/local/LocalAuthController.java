@@ -56,9 +56,12 @@ public class LocalAuthController {
 				modelMap.put("success", false);
 				modelMap.put("errMsg", lae.getStateInfo());
 			}
-		} else {
+		} else if (userName==null || password==null){
 			modelMap.put("success", false);
 			modelMap.put("errMsg", "用户名和密码均不能为空");
+		}else {
+			modelMap.put("success", false);
+			modelMap.put("errMsg", "请登录微信账号");
 		}
 		return modelMap;
 	}

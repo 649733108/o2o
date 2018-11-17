@@ -78,13 +78,22 @@
 		<div class="panel panel-right panel-reveal" id="panel-left-demo">
 			<div class="content-block">
 				<p>
-					<a href="/myo2o/frontend/myrecord" class="close-panel">消费记录</a>
+					<a href="/local/accountbind?usertype=1" class="close-panel">绑定账号</a>
 				</p>
 				<p>
-					<a href="/myo2o/frontend/mypoint" class="close-panel">我的积分</a>
+					<a href="/local/changepsw?usertype=1" class="close-panel">修改密码</a>
 				</p>
 				<p>
-					<a href="/myo2o/frontend/pointrecord" class="close-panel">积分兑换记录</a>
+					<a href="/frontend/myrecord" class="close-panel">消费记录</a>
+				</p>
+				<p>
+					<a href="/frontend/mypoint" class="close-panel">我的积分</a>
+				</p>
+				<p>
+					<a href="/frontend/pointrecord" class="close-panel">积分兑换记录</a>
+				</p>
+				<p>
+					<a href="#" id="log-out" usertype="1" class="close-panel">登出系统</a>
 				</p>
 				<!-- Click on link with "close-panel" class will close panel -->
 			</div>
@@ -102,5 +111,7 @@
 		src='../resources/js/common/commonutil.js' charset='utf-8'></script>
 	<script type='text/javascript'
 		src='../resources/js/frontend/mypoint.js' charset='utf-8'></script>
+	<script type='text/javascript' src='/resources/js/shop/logout.js' charset='utf-8'></script>
+
 </body>
 </html>

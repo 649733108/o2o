@@ -18,6 +18,7 @@
 			<result column="phone" property="phone" />
 			<result column="email" property="email" />
 			<result column="profile_img" property="profileImg" />
+			<result column="user_type" property="userType"/>
 			<!--<result column="customer_flag" property="customerFlag" />-->
 			<!--<result column="shop_owner_flag" property="shopOwnerFlag" />-->
 			<!--<result column="admin_flag" property="adminFlag" />-->
@@ -42,6 +43,7 @@
 		p.phone,
 		p.email,
 		p.profile_img,
+		p.user_type,
 		p.customer_flag,
 		p.shop_owner_flag,
 		p.admin_flag,
@@ -77,6 +79,7 @@
 		p.phone,
 		p.email,
 		p.profile_img,
+		p.user_type,
 		p.customer_flag,
 		p.shop_owner_flag,
 		p.admin_flag,
