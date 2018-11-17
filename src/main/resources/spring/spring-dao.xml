@@ -35,6 +35,16 @@
         <property name="checkoutTimeout" value="10000" />
         <!-- 当获取连接失败重试次数 -->
         <property name="acquireRetryAttempts" value="2" />
+        <!--解决mysql重连，连接丢失：
+        The last packet sent successfully to the server was 20,820,002 milliseconds ago.
+        is longer than the server configured value of 'wait_timeout'.
+        You should consider either expiring and/or testing connection validity before use
+        in your application, increasing the server configured values for client timeouts,
+         or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+		-->
+        <property name="testConnectionOnCheckin" value="false"/>
+        <property name="testConnectionOnCheckout" value="true"/>
+
     </bean>
 
     <!-- 3.配置SqlSessionFactory对象 -->
